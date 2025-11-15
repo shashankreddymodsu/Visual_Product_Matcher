@@ -150,3 +150,6 @@ This project demonstrates a visual product search experience using a MERN-style 
 On the backend, a Node.js + Express API provides product listing, upload, and similarity endpoints. Products are stored in MongoDB and seeded from a JSON dataset. The similarity endpoint returns top-K items using a deterministic mix of seeded scores and a per-image hash so different inputs yield different, stable rankings. The upload endpoint uses Multer and serves files from a static `/uploads` directory, mirroring a production setup.
 
 The frontend uses React and Vite with a two-step experience: an upload/search step and a results step. Components (`UploadPage`, `ResultsPage`, `ProductCard`, `FiltersPanel`) keep code modular and easy to iterate. The UI is mobile-responsive, includes loading states, and surfaces errors. The API shape and UI make it straightforward to upgrade the similarity logic to real ML embeddings when desired.
+
+
+<img width="1898" height="907" alt="image" src="https://github.com/user-attachments/assets/8998f516-446e-4486-bf2c-ff7b1b22ccc2" />
